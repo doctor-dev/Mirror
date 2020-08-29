@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(476,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  IntApp.cpp
+E:\Mirror\Mirror\Interface\src\IntApp.cpp(12,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+     Creating library E:\Mirror\Mirror\bin\Debug-x64\Interface\Interface.lib and object E:\Mirror\Mirror\bin\Debug-x64\Interface\Interface.exp
+  Interface.vcxproj -> E:\Mirror\Mirror\bin\Debug-x64\Interface\Interface.exe

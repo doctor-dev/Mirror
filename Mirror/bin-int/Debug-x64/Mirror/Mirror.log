@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(476,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Application.cpp
+E:\Mirror\Mirror\Mirror\src\Mirror\Application.cpp(4,25): warning C4273: 'Mirror::Application::Run': inconsistent dll linkage
+E:\Mirror\Mirror\Mirror\src\Mirror\Application.h(7,8): message : see previous definition of 'Run'
+     Creating library E:\Mirror\Mirror\bin\Debug-x64\Mirror\Mirror.lib and object E:\Mirror\Mirror\bin\Debug-x64\Mirror\Mirror.exp
+  Mirror.vcxproj -> E:\Mirror\Mirror\bin\Debug-x64\Mirror\Mirror.dll
