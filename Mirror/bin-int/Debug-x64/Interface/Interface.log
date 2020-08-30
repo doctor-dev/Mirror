@@ -1,6 +1,8 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(476,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+﻿D:\Visual studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(476,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+D:\Visual studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
   IntApp.cpp
-E:\Mirror\Mirror\Interface\src\IntApp.cpp(12,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-     Creating library E:\Mirror\Mirror\bin\Debug-x64\Interface\Interface.lib and object E:\Mirror\Mirror\bin\Debug-x64\Interface\Interface.exp
-  Interface.vcxproj -> E:\Mirror\Mirror\bin\Debug-x64\Interface\Interface.exe
+D:\Mirror\Mirror\Mirror\src\Mirror\Log.h(16,54): warning C4251: 'Mirror::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Mirror::Log'
+D:\Mirror\Mirror\Mirror\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\Mirror\Mirror\Mirror\src\Mirror\Log.h(17,56): warning C4251: 'Mirror::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Mirror::Log'
+D:\Mirror\Mirror\Mirror\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Interface.vcxproj -> D:\Mirror\Mirror\bin\Debug-x64\Interface\Interface.exe

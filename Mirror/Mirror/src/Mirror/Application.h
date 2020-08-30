@@ -1,9 +1,13 @@
 #pragma once
-#include "core.h"
+#include "Core.h"
 namespace Mirror {
 	class MIRROR_API Application
 	{
 	public:
 		void Run();
+		
+
 	};
+	Application* CreateApplication();
 }
+

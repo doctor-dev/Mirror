@@ -1,18 +1,13 @@
 
-#include <mirror.h>
+#include <Mirror.h>
 class Interface : public Mirror::Application
 {
 public:
     Interface() {
     };
-    int x = 3;
+   
 };
 
-void main() 
-{
-    Interface x;
-    x.Run();
-    
-    
-
+Mirror::Application* Mirror::CreateApplication() {
+    return new Interface();
 }
