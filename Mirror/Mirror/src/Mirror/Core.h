@@ -11,3 +11,5 @@
     #error Only supports windows
 
 #endif // MR_Platform_Windows
+
+#define BIT(X) (1<<X)
