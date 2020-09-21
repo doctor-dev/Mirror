@@ -9,8 +9,8 @@ namespace Mirror {
 		None = 0,
 		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WIndowMoved,
 		AppTick, AppUpdate, AppRender,
-		KeyPressed,KeyReleased,
-		MouseButtonPressed,MouseButtonReleased,MouseMoved,MouseScrolled
+		KeyPressed, KeyReleased,
+		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled
 	};
 
 	enum EventCategory {
@@ -18,7 +18,7 @@ namespace Mirror {
 		EventCategoryApplication = BIT(0),
 		EventCategoryInput = BIT(1),
 		EventCategoryKeyboard = BIT(2),
-		EventCategoryMouse  =BIT(3),
+		EventCategoryMouse = BIT(3),
 		EventCategoryMouseButton = BIT(4)
 	};
 
