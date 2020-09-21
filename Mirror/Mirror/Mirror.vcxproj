@@ -143,6 +143,10 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Events\ApplicationEvent.h" />
+    <ClInclude Include="Events\Event.h" />
+    <ClInclude Include="Events\KeyEvent.h" />
+    <ClInclude Include="Events\MouseEvent.h" />
     <ClInclude Include="src\Mirror.h" />
     <ClInclude Include="src\Mirror\Application.h" />
     <ClInclude Include="src\Mirror\Core.h" />

@@ -4,6 +4,9 @@
     <Filter Include="Mirror">
       <UniqueIdentifier>{00C128C3-EC62-5399-D51D-67EDC15EDAE9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Mirror\Events">
+      <UniqueIdentifier>{f88e4f9c-efe0-41b0-a097-b76cf527844a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Mirror.h" />
@@ -18,6 +21,18 @@
     </ClInclude>
     <ClInclude Include="src\Mirror\Log.h">
       <Filter>Mirror</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\KeyEvent.h">
+      <Filter>Mirror\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Event.h">
+      <Filter>Mirror\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\MouseEvent.h">
+      <Filter>Mirror\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\ApplicationEvent.h">
+      <Filter>Mirror\Events</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
