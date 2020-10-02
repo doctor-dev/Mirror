@@ -1,5 +1,5 @@
 #pragma once
-#include "../src/Mirror/Core.h"
+#include "src/Mirror/Core.h"
 #include <string>
 #include <functional>
 
@@ -7,7 +7,7 @@ namespace Mirror {
 
 	enum class EventType {
 		None = 0,
-		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WIndowMoved,
+		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,
 		AppTick, AppUpdate, AppRender,
 		KeyPressed, KeyReleased,
 		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled

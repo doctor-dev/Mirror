@@ -6,7 +6,7 @@
 
 namespace Mirror {
 
-	class MouseMovedEvent : public Event
+	class MIRROR_API MouseMovedEvent : public Event
 	{
 	public:
 		MouseMovedEvent(const float x, const float y)
@@ -28,7 +28,7 @@ namespace Mirror {
 		float m_MouseX, m_MouseY;
 	};
 
-	class MouseScrolledEvent : public Event
+	class MIRROR_API MouseScrolledEvent : public Event
 	{
 	public:
 		MouseScrolledEvent(const float xOffset, const float yOffset)
@@ -50,7 +50,7 @@ namespace Mirror {
 		float m_XOffset, m_YOffset;
 	};
 
-	class MouseButtonEvent : public Event
+	class MIRROR_API MouseButtonEvent : public Event
 	{
 	public:
 		inline int GetMouseButton() const { return m_Button; }
@@ -63,7 +63,7 @@ namespace Mirror {
 		int m_Button;
 	};
 
-	class MouseButtonPressedEvent : public MouseButtonEvent
+	class MIRROR_API MouseButtonPressedEvent : public MouseButtonEvent
 	{
 	public:
 		MouseButtonPressedEvent(const int button)
@@ -79,7 +79,7 @@ namespace Mirror {
 		EVENT_CLASS_TYPE(MouseButtonPressed)
 	};
 
-	class MouseButtonReleasedEvent : public MouseButtonEvent
+	class MIRROR_API MouseButtonReleasedEvent : public MouseButtonEvent
 	{
 	public:
 		MouseButtonReleasedEvent(const int button)

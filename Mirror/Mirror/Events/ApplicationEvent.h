@@ -4,7 +4,7 @@
 
 namespace Mirror {
 
-	class WindowResizeEvent : public Event
+	class MIRROR_API WindowResizeEvent : public Event
 	{
 	public:
 		WindowResizeEvent(unsigned int width, unsigned int height)
@@ -26,7 +26,7 @@ namespace Mirror {
 		unsigned int m_Width, m_Height;
 	};
 
-	class WindowCloseEvent : public Event
+	class MIRROR_API WindowCloseEvent : public Event
 	{
 	public:
 		WindowCloseEvent() = default;
@@ -35,7 +35,7 @@ namespace Mirror {
 			EVENT_CLASS_CATEGORY(EventCategoryApplication)
 	};
 
-	class AppTickEvent : public Event
+	class MIRROR_API AppTickEvent : public Event
 	{
 	public:
 		AppTickEvent() = default;
@@ -44,7 +44,7 @@ namespace Mirror {
 			EVENT_CLASS_CATEGORY(EventCategoryApplication)
 	};
 
-	class AppUpdateEvent : public Event
+	class MIRROR_API AppUpdateEvent : public Event
 	{
 	public:
 		AppUpdateEvent() = default;
@@ -53,7 +53,7 @@ namespace Mirror {
 			EVENT_CLASS_CATEGORY(EventCategoryApplication)
 	};
 
-	class AppRenderEvent : public Event
+	class MIRROR_API AppRenderEvent : public Event
 	{
 	public:
 		AppRenderEvent() = default;
