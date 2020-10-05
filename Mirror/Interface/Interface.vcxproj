@@ -79,7 +79,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>MR_Platform_Windows;MR_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\Mirror\vendor\spdlog\include;..\Mirror\src;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Mirror\vendor\spdlog\include;..\Mirror\src;%(AdditionalIncludeDirectories);$(Solutiondir)/Mirror;</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -95,7 +95,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>MR_Platform_Windows;MR_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\Mirror\vendor\spdlog\include;..\Mirror\src;%(AdditionalIncludeDirectories);$(SolutionDir)/$(ProjectName);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Mirror\vendor\spdlog\include;..\Mirror\src;%(AdditionalIncludeDirectories);$(Solutiondir)/Mirror;</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -115,7 +115,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>MR_Platform_Windows;MR_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\Mirror\vendor\spdlog\include;..\Mirror\src;%(AdditionalIncludeDirectories);$(SolutionDir)/$(ProjectName);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Mirror\vendor\spdlog\include;..\Mirror\src;%(AdditionalIncludeDirectories);$(Solutiondir)/Mirror;</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>

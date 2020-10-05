@@ -22,18 +22,19 @@
     <ClInclude Include="src\Mirror\Log.h">
       <Filter>Mirror</Filter>
     </ClInclude>
-    <ClInclude Include="Events\KeyEvent.h">
+    <ClInclude Include="src\Events\ApplicationEvent.h">
       <Filter>Mirror\Events</Filter>
     </ClInclude>
-    <ClInclude Include="Events\Event.h">
+    <ClInclude Include="src\Events\Event.h">
       <Filter>Mirror\Events</Filter>
     </ClInclude>
-    <ClInclude Include="Events\MouseEvent.h">
+    <ClInclude Include="src\Events\KeyEvent.h">
       <Filter>Mirror\Events</Filter>
     </ClInclude>
-    <ClInclude Include="Events\ApplicationEvent.h">
+    <ClInclude Include="src\Events\MouseEvent.h">
       <Filter>Mirror\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\mrpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Mirror\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Mirror\Log.cpp">
       <Filter>Mirror</Filter>
     </ClCompile>
+    <ClCompile Include="src\mrpch.cpp" />
   </ItemGroup>
 </Project>
