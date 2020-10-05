@@ -1,7 +1,6 @@
 #pragma once
 #include "Mirror/Core.h"
-#include <string>
-#include <functional>
+
 
 namespace Mirror {
 
