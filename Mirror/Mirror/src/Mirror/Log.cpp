@@ -1,6 +1,6 @@
 #include "mrpch.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
-#include "Log.h"
+
 
 namespace Mirror {
 	std::shared_ptr<spdlog::logger> Log::s_CoreLogger;
