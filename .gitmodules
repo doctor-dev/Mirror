@@ -1,3 +1,6 @@
 [submodule "Mirror/Mirror/vendor/spdlog"]
 	path = Mirror/Mirror/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Mirror/Mirror/Vendor/glfw"]
+	path = Mirror/Mirror/Vendor/glfw
+	url = https://github.com/doctor-dev/glfw
