@@ -6,9 +6,8 @@ extern Mirror::Application* Mirror::CreateApplication();
 int main(int argc,char** argv)
 {
     Mirror::Log::Init();
-    MR_CORE_WARN("Initialized Log!");
-    int a = 5;
-    MR_INFO("Hello! Var={0}", a);
+    MR_CORE_WARN("Initialized");
+    MR_INFO("Hello");
     
    
     auto app = Mirror::CreateApplication();

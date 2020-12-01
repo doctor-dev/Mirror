@@ -35,8 +35,6 @@
       <Filter>Mirror\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\mrpch.h" />
-    <ClInclude Include="src\Mirror\Window.h" />
-    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Mirror\Application.cpp">
@@ -46,7 +44,5 @@
       <Filter>Mirror</Filter>
     </ClCompile>
     <ClCompile Include="src\mrpch.cpp" />
-    <ClCompile Include="src\Mirror\Window.cpp" />
-    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
   </ItemGroup>
 </Project>
