@@ -1,14 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
-  <ProjectOutputs>
-    <ProjectOutput>
-      <FullPath>E:\Mirror\Mirror\bin\Debug-windows-x86_64\Mirror\Mirror.dll</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>E:\Mirror\Mirror\bin\Debug-windows-x86_64\Interface\Interface.exe</FullPath>
-    </ProjectOutput>
-  </ProjectOutputs>
-  <ContentFiles />
-  <SatelliteDlls />
-  <NonRecipeFileRefs />
+  <ProjectOutputs>D:\Mirror\Mirror\bin\Debug-windows-x86_64\Mirror\Mirror.dll;D:\Mirror\Mirror\bin\Debug-windows-x86_64\Interface\Interface.exe</ProjectOutputs>
+  <ContentFiles></ContentFiles>
+  <SatelliteDlls></SatelliteDlls>
+  <NonRecipeFileRefs></NonRecipeFileRefs>
 </Project>
