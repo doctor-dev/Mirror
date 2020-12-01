@@ -13,8 +13,6 @@ namespace Mirror {
 	}
 
 	void Application::Run(){
-
-		MR_CORE_INFO("Application Running");
 		
 		while (m_Running) {
 			glClearColor(1, 0, 1, 1);
