@@ -155,11 +155,15 @@
     <ClInclude Include="src\Mirror\Application.h" />
     <ClInclude Include="src\Mirror\Core.h" />
     <ClInclude Include="src\Mirror\EntryPoint.h" />
+    <ClInclude Include="src\Mirror\Layer.h" />
+    <ClInclude Include="src\Mirror\LayerStack.h" />
     <ClInclude Include="src\Mirror\Log.h" />
     <ClInclude Include="src\mrpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Mirror\Application.cpp" />
+    <ClCompile Include="src\Mirror\Layer.cpp" />
+    <ClCompile Include="src\Mirror\LayerStack.cpp" />
     <ClCompile Include="src\Mirror\Log.cpp" />
     <ClCompile Include="src\mrpch.cpp">
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mrpch.h</PrecompiledHeaderFile>

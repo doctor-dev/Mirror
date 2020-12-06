@@ -35,6 +35,17 @@
       <Filter>Mirror\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\mrpch.h" />
+<<<<<<< Updated upstream
+=======
+    <ClInclude Include="src\Mirror\Window.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
+    <ClInclude Include="src\Mirror\Layer.h">
+      <Filter>Mirror</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mirror\LayerStack.h">
+      <Filter>Mirror</Filter>
+    </ClInclude>
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Mirror\Application.cpp">
@@ -44,5 +55,16 @@
       <Filter>Mirror</Filter>
     </ClCompile>
     <ClCompile Include="src\mrpch.cpp" />
+<<<<<<< Updated upstream
+=======
+    <ClCompile Include="src\Mirror\Window.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
+    <ClCompile Include="src\Mirror\Layer.cpp">
+      <Filter>Mirror</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mirror\LayerStack.cpp">
+      <Filter>Mirror</Filter>
+    </ClCompile>
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>

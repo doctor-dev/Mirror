@@ -9,10 +9,11 @@ int main(int argc,char** argv)
     MR_CORE_WARN("Initialized");
     MR_INFO("Hello");
     
-   
+    
     auto app = Mirror::CreateApplication();
     app->Run();
     delete app;
-
+    
+    
 }
 #endif
